@@ -68,7 +68,7 @@ body {
   }
   .img-sm:hover {
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 70px;
     border: 10px  #2cb9cb solid;
   }
 
