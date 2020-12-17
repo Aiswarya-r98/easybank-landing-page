@@ -1,0 +1,326 @@
+
+:root {
+    --heading: #4f4e5e;
+    --paragraph: #a6a7ac;
+} 
+
+
+  /*below 992px mobile view*/
+  @media screen and (max-width: 992px) {
+
+    .navbar{
+      padding: 10px 10px;
+    }
+
+    .btn-gradient {
+      display: none;
+    }
+
+    #desktopnav {
+      display: none;
+    }
+
+    /* menu toggle button*/
+    .navbar-toggle {
+      display: inline;
+      text-align: right;
+    }
+
+    .navbar-toggler{
+      border: none;
+      outline: none;
+  }
+  .navbar-toggler:focus {
+      border: none;
+      outline: none;
+  }
+  
+  
+    
+    .home-mobile{
+     
+      position: relative;
+      display: flex;
+      justify-content: center;
+      padding: 0px 15px;
+           
+    }
+    .home{
+      display: none;
+    }
+    .aligning {
+      height: 750px;
+    }
+    .image-1{
+      z-index: auto;
+      margin-left: auto;
+      margin-right: auto; 
+      display: flex; 
+      position:relative; 
+      top: -500px; 
+      width:1500px; 
+      height: 1200px;
+    }
+
+    .image-2 {
+      z-index: 3; 
+      margin-left: auto;
+      margin-right: auto; 
+      display: flex;
+      position:relative; 
+      top:-1470px; 
+      right:0px; 
+      width: fit-content; 
+      height: auto;
+      text-align: center;
+    }
+
+    .main-section-spacing {
+      padding: 10px 10px 10px 10px;
+    }
+    .main-heading-sm {
+      text-align: center;
+      font-size: 4em; 
+      font-weight: normal; 
+      color: var(--heading);
+    }
+    .section-description-sm {
+      text-align: center;
+      font-size: 2em;
+      font-weight: normal; 
+      color: var(--paragraph);
+    }
+
+    .btn-gradient-sm {
+      margin-left: auto;
+      margin-right: auto; 
+      border: none;
+      outline: none;
+      border-radius: 50px;
+      padding: 20px 50px;
+      color: aliceblue;
+      font-weight: bold;
+      background-image: linear-gradient(to right, #31d06b 0%, #2cb9cb 100%);
+      display: flex;
+      margin-bottom: 150px;
+    }
+    .about{
+      overflow-y:hidden;
+      height: auto;
+      z-index: 2;
+      position:relative; 
+      padding: 120px 120px 120px 120px; 
+      background-color: #f4f5f7;
+    }
+
+    .section-heading{
+      text-align: center;
+      font-size: 4em; 
+      font-weight: normal; 
+      color: darkslategray;
+    }
+    .section-description {
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: normal; 
+      color: var(--paragraph);
+      padding-bottom: 40px;
+      
+    }
+    .col-heading-sm{
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: normal; 
+      color: var(--heading);
+      padding-bottom: 40px;
+    }
+    .img-sm {
+      height: 5.5em;
+      width: 5.5em;
+    }
+    .latest-article-section{
+        overflow-y:hidden; 
+        height: auto; 
+        position:relative; 
+        padding: 15px 120px;  
+        background-color: #fafafa;
+      
+
+    }
+    .img-2{
+      width: 100%;
+      height: 190px;
+    }
+    .text-1{
+      padding-left: 10px;
+      font-size: 1em;
+    }
+    .text-2{
+      padding-left: 10px;
+      font-size: 1.8em;
+      text-align:left;
+      color: var(--heading);
+    }
+    .text-3{
+      padding-left: 10px;
+      padding-right: 20px;
+      font-size: 1.2em;
+      text-align:left;
+      color: var(--paragraph);
+    }
+    .footer {
+      height: auto; 
+      color: darkgray; 
+      padding: 50px 120px;
+      background-color: #2d314e;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: center;
+    }
+    .copyright {
+      padding-top: 0px;
+      
+    }
+
+    .footer a {
+      color: darkgray;
+      padding-bottom: 10px;
+    }
+    .footer a:hover {
+      font-weight: bold;
+    }
+    
+  }
+
+  .btn-gradient-sm-footer {
+    margin-left: auto;
+    margin-right: auto; 
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: aliceblue;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #31d06b 0%, #2cb9cb 100%);
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .nav-item-footer{
+    margin-bottom: 20px;
+  }
+
+  @media only screen and (max-width: 769px) {
+    .img-2{
+      width: 100%;
+      height: 300px;
+    }
+    
+    .image-2 {
+      z-index: 3; 
+      margin-left: auto;
+      margin-right: auto; 
+      display: flex;
+      position:relative; 
+      top:-1410px; 
+      right:0px; 
+      width: 100%; 
+      height: 100%;
+      text-align: center;
+    }
+    .center-sm {
+      text-align: center;
+    }
+    .spacing{
+      padding: 30px 5px;
+    }
+
+  }
+  @media only screen and (max-width: 650px) {
+
+    .spacing{
+      padding: 30px 5px;
+    }
+    .img-2{
+
+      padding: 0 0;
+      width: 100%;
+      height: 150px;
+    }
+    .image-2 {
+      z-index: 3; 
+      margin-left: auto;
+      margin-right: auto; 
+      display: flex;
+      position:relative; 
+      top:-1300px; 
+      right:0px; 
+      width: 100%; 
+      height: 120%;
+      text-align: center;
+    }
+    .main-heading-sm {
+      font-size: 3em;
+    }
+    .section-heading {
+      text-align: center;
+      font-size: 3em;
+    }
+    .section-description-sm {
+      text-align: center;
+      font-size: 1.2em;
+      font-weight: normal; 
+      color: var(--paragraph);
+      padding-bottom: 40px;
+      
+    }
+    .section-description {
+      text-align: center;
+      font-size: 1.2em;
+      font-weight: normal; 
+      color: var(--paragraph);
+      padding-bottom: 40px;
+      
+    }
+    .aligning {
+      height: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+
+    .spacing {
+      padding: 30px 5px;
+    }
+    .image-2 {
+      z-index: 3; 
+      margin-left: auto;
+      margin-right: auto; 
+      display: flex;
+      position:relative; 
+      top:-1300px; 
+      right:0px; 
+      width: 100%; 
+      height: 100%;
+      text-align: center;
+    }
+
+    .text-1{
+      padding-left: 10px;
+      font-size: 0.83em;
+    }
+    .text-2{
+      padding-left: 10px;
+      font-size: 1.2em;
+      text-align:left;
+      color: var(--heading);
+    }
+    .text-3{
+      padding-left: 10px;
+      padding-right: 20px;
+      font-size: 1em;
+      text-align:left;
+      color: var(--paragraph);
+    }
+  }
